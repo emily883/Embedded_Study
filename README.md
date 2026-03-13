@@ -1,56 +1,40 @@
 # Embedded Study
 
-Repositorio personal para documentar y organizar mi proceso de aprendizaje en **Embedded Systems**.
+[English version](./README.en.md)
 
-## Proposito
+Este repositorio es mi espacio para estudiar sistemas embebidos con calma, ir guardando recursos y dejar por escrito lo que voy aprendiendo en el camino.
 
-Este espacio esta pensado para estudiar los fundamentos de sistemas embebidos de forma practica y progresiva, incluyendo teoria, ejercicios, pruebas de codigo y notas tecnicas.
+No quiero llevar este proceso con prisa ni saltandome bases. La idea es aprender bien, entender de verdad lo que estoy viendo y poco a poco ir construyendo una base solida.
 
-## Objetivos
+## Que quiero hacer aqui
 
-- Comprender los conceptos base de hardware y software embebido.
-- Practicar programacion cercana al hardware.
-- Documentar avances, aprendizajes y experimentos.
-- Construir una base solida para proyectos futuros.
+Quiero usar este repo como una especie de bitacora de estudio. Aqui voy a ir juntando:
 
-## Contenido previsto
+- libros y recursos
+- notas
+- ejemplos
+- practicas
+- cosas que me parezcan importantes para revisar despues
 
-Este repositorio servira como base para reunir material tecnico y practico relacionado con el estudio de sistemas embebidos. La idea es mantener una documentacion ordenada que permita revisar conceptos, registrar progreso y reutilizar ejemplos en proyectos posteriores.
+## Recursos
 
-## Estructura del repositorio
+### C
 
-A medida que el proyecto crezca, este repositorio puede incluir:
+- [C Programming Absolute Beginner's Guide](./C/C_Programming_Absolute_Beginner%E2%80%99s_Guide_by_Greg_Perry_Dean_Miller.pdf)
 
-- `notes/`: apuntes y resumenes de estudio
-- `examples/`: ejemplos practicos y ejercicios
-- `projects/`: proyectos pequenos o prototipos
-- `resources/`: referencias utiles y material de apoyo
+  Este es el recurso que voy a usar ahora para C. Me parece mejor punto de partida para llevar el aprendizaje con mas orden y desde una base mas clara, asi que por ahora este sera el libro principal que voy a seguir.
 
-## Metodologia
+## Notas del camino
 
-El enfoque de estudio de este repositorio seguira una progresion simple:
+- Me instale GCC para poder empezar a compilar ejemplos de C desde la terminal.
+- La version que instale fue `gcc 15.2.0`.
+- Lo instale usando `winget`, con el paquete `BrechtSanders.WinLibs.POSIX.UCRT`.
+- Para compilar uno de los ejemplos use este comando:
 
-1. Estudiar conceptos fundamentales.
-2. Implementar ejemplos pequenos y verificables.
-3. Documentar resultados, errores y aprendizajes.
-4. Aplicar lo aprendido en proyectos practicos.
-
-## Temas de interes
-
-Entre los temas que se iran desarrollando se encuentran:
-
-- arquitectura basica de microcontroladores
-- entradas y salidas digitales
-- temporizacion e interrupciones
-- comunicacion serial
-- lectura de sensores
-- control de actuadores
-- depuracion de sistemas embebidos
-
-## Proximo objetivo
-
-Comenzar a construir contenido practico y documentacion clara en cada etapa del aprendizaje.
+```bash
+gcc -std=c2x -Wall -lm -o getting-started getting-started.c
+```
 
 ## Estado actual
 
-Repositorio en etapa inicial.
+Voy empezando y por ahora estoy organizando recursos y definiendo como quiero llevar el estudio.
