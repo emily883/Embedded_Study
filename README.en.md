@@ -29,6 +29,7 @@ I want to use this repo as a kind of study log. This is where I will keep:
 - I installed GCC so I could start compiling C examples from the terminal.
 - The version I installed was `gcc 15.2.0`.
 - I installed it with `winget`, using the package `BrechtSanders.WinLibs.POSIX.UCRT`.
+- I built my first "Hello, world." I had to do it; it is basically a ritual among programmers. Even though I already know how to program in other languages, this feels like a new beginning with C, and that ritual was not something I wanted to skip.
 - To compile one of the examples, I used this command:
 
 ```bash

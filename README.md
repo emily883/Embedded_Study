@@ -29,6 +29,7 @@ Quiero usar este repo como una especie de bitacora de estudio. Aqui voy a ir jun
 - Me instale GCC para poder empezar a compilar ejemplos de C desde la terminal.
 - La version que instale fue `gcc 15.2.0`.
 - Lo instale usando `winget`, con el paquete `BrechtSanders.WinLibs.POSIX.UCRT`.
+- Construí mi primer "Hola mundo". Tenia que hacerlo; es casi un ritual entre programadores. Aunque ya sepa programar en otros lenguajes, esto se siente como un nuevo comienzo con C y ese ritual no se podia saltar.
 - Para compilar uno de los ejemplos use este comando:
 
 ```bash
